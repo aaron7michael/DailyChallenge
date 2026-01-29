@@ -7,16 +7,16 @@
 /// 
 /// Note: A subarray is a contiguous part of any given array.
 /// </summary>
+using System;
 public class MaxXORFromArray
 {
-    public static void Main()
+    public static int GetMaxXORFromArray(int[] arr, int k, int i, int currMax) 
     {
-        Console.WriteLine("Hello, World!");
-    }
-    public int GetMaxXORFromArray(int[] arr, int k);
-    public int[] GetRandomIntArray(int size)
-    {
-        
+        if (k >= arr.Length)
+        {
+
+        }
+        return 0;
     }
 }
 
